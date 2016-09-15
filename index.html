@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Bootstrap 101 Template</title>
+    <title>Project P1</title>
 
     <!-- Bootstrap -->
     <!-- Latest compiled and minified CSS -->
@@ -13,9 +13,9 @@
 
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/grid.css">
+    <link rel="stylesheet" href="css/p1.css">
 
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -25,13 +25,66 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Ranjay Kumar</h1>
 
-    <h6>Student at Harvard Extension School for class <strong>Dynamic Web Applications(dwa15) </strong> </h6>
+    <div class="container">
+
+      <div class="page-header">
+        <h1>Ranjay Kumar</h1>
+        <p class="lead">Student at Harvard Extension School for class <strong>Dynamic Web Applications(dwa15) </strong> </p>
+      </div>
+
+      <h3>About me</h3>
+      <p>My name is <strong>Ranjay Kumar</strong> and I am a fall semester student of dwa15 class. This is my first project for the class.</p>
+
+    <div class="row">
+        <div class="col-md-4">
+          <img src="images/my_pic.jpg" alt="Ranjay Photo" width="300"/>
+        </div>
+        <div class="col-md-8">
+          <ul><li>
+          <p>I am currently working at <strong>Harvard Medical School (HMS)</strong> as <strong>Lead Senior Database Engineer</strong>. I am working in databases technology since 1997 and worked as Data Modeler, Architect and have designed Enterprise Class OLTP/Data Warehouses in sizes of up to Petabytes on Public and Virtual Private Clouds. </p>
+</li><li>
+<p>I am taking this class to hone my web development skills which I can use to build new Data Analytics application for my department. </p>
+</li><li>
+<p>I like to travel and enjoy playing golf.</p>
+</li></ul>
+        </div>
+      </div>
+
+      <h3>Other Projects</h3>
+      <p></p>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="projectDiv">
+            <h1 class="red">Project 2</h1>
+            <p class="links"> <strong> Github : </strong> <a class="refLinks"  href="https://github.com/ranjayd-harvard/p2.git">Source Code</a> <p>
+            <p class="links"> <strong> Demo : </strong><a class="refLinks"  href="http://p1.ranjayd.me">p2 demo ( points to dwa15 )</a> </p>
+          </div>
+        </div>
+        <div class="col-md-4">
+          <div class="projectDiv">
+          <h1 class="red">Project 3</h1>
+          <p class="links"> <strong> Github : </strong><a class="refLinks" href="https://github.com/ranjayd-harvard/p3.git">Source Code</a> <p>
+          <p class="links"> <strong> Demo : </strong><a class="refLinks"  href="http://dwa15.com">p3 demo ( points to dwa15 )</a> </p>
+        </div>
+        </div>
+        <div class="col-md-4">
+          <div class="projectDiv">
+          <h1 class="red">Project 4</h1>
+          <p class="links"> <strong> Github : </strong><a class="refLinks"  href="https://github.com/ranjayd-harvard/p4.git">Source Code</a> <p>
+          <p class="links"> <strong> Demo : </strong><a class="refLinks"  href="http://dwa15.com">p4 demo ( points to dwa15 )</a> </p>
+        </div>
+        </div>
+      </div>
+    </div>
+
+    <br><br>
+
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
-    <script src="js/bootstrap.min.js"></script>
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
   </body>
 </html>
