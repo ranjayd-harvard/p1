@@ -8,5 +8,5 @@ In the bottom section, it also shows the links to the source code and demo of th
 
 Demo url for this project is: http://p1.ranjayd.me
 <br>
-Link to the Video: <placeholder>
-<br> 
+Link to the Video: (published soon)
+<br>
